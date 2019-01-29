@@ -1,0 +1,61 @@
+
+html {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+}
+
+body {
+  padding: 0%;
+  margin: 0%;
+  height: 100%;
+}
+
+.app-container {
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.header-container {
+  display: grid;
+  grid-template-columns: 100%;
+  padding: 0%;
+  margin: 0%;
+  height: 15%;
+}
+
+.header-title {
+  display: inline-block;
+  margin: auto auto auto auto;
+  font-family: 'Robato', sans-serif;
+}
+
+.signup-container {
+  display: grid;
+  grid-template-rows: 30px 30px 30px 30px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+}
+
+.username-label {
+  margin: auto auto 2px auto;
+  font-family: 'Robato', sans-serif;
+}
+
+.password-label {
+  margin: auto auto 2px auto;
+  font-family: 'Robato', sans-serif;
+}
+
+.username-input {
+  margin: auto auto 20px auto;
+  font-family: 'Robato', sans-serif;
+}
+
+.password-input {
+  margin: 0px auto auto auto;
+  font-family: 'Robato', sans-serif;
+}
